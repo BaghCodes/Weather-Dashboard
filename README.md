@@ -44,6 +44,53 @@ A React.js-based Weather Dashboard web application that allows users to search f
 git clone <your-repository-url>
 cd weather-dashboard
 2. Install dependencies:
+3. Create a `.env` file in the root directory and add your API key:
+   VITE_API_KEY=your_openweathermap_api_key
+4.Start the development server:
+npm run dev
+5. Open the app in your browser at `http://localhost:5173`.
+
+---
+
+## 🔗 API Integration Details
+
+### OpenWeatherMap Current Weather API
+- URL: `https://api.openweathermap.org/data/2.5/weather?q={city}&appid={YOUR_API_KEY}&units=metric`
+- **Rate Limits**: Free tier allows up to 60 calls per minute.
+- **Keys**: Replace `{YOUR_API_KEY}` with your personal API key.
+
+### OpenWeatherMap Forecast API (Bonus Feature)
+- URL: `https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={YOUR_API_KEY}&units=metric`
+- Provides weather data in 3-hour intervals for up to 5 days.
+
+---
+
+## 🌐 Deployment
+
+The app is deployed on Vercel and can be accessed via the live link below:
+
+🔗 [Live Demo](<your-vercel-url>)
+
+---
+
+## 📸 Screenshots
+(Optional) Add screenshots of your app here.
+
+---
+
+## 📬 Submission Format
+
+Send us the following via Google Form:
+1. ✅ Live Deployed App URL.
+2. ✅ GitHub Repository Link.
+3. ✅ README.md file with setup instructions and API details.
+4. ✅ (Optional) Screenshots or Loom video demo of your app.
+
+---
+
+## 🧠 Closing Note
+
+Thank you for reviewing my submission! I hope this project demonstrates my ability to write clean, modular React code, integrate APIs, handle errors gracefully, and design responsive UIs.
 
 =======
 # React + Vite
