@@ -40,3 +40,7 @@ A React.js-based Weather Dashboard web application that allows users to search f
 
 ### Steps
 1. Clone the repository:
+git clone <your-repository-url>
+cd weather-dashboard
+2. Install dependencies:
+
